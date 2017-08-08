@@ -107,4 +107,4 @@ void addnewnode()
   holder = temp;
   temp = head;
   temp->ptr = holder;
-  }
+}
