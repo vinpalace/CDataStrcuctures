@@ -26,13 +26,23 @@ NODE* GetNewNode(int data)
 
 int main()
 {
-    root = Insert(root,15);
-    root = Insert(root,20);
-    root = Insert(root,30);
-    root = Insert(root,34);
-    root = Insert(root,46);
-    root = Insert(root,13);
-    root = Insert(root,54);
+    int choice;
+    int data;
+
+    while(choice)
+
+    {
+        printf("\nEnter the number you want to enter into the tree\n");
+        scanf("%d",&data);
+
+        root = Insert(root,data);
+
+        printf("\nDo you want to add another node ?\n");
+        scanf("%d",&choice);
+
+
+    }
+
 
     int number;
     printf("\nEnter a number to be searched\n");
