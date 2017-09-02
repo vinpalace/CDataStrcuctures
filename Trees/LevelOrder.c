@@ -17,8 +17,8 @@ NODE* root = NULL;
 NODE* Insert(NODE* root,int data);
 int Search(NODE* root,int data);
 void LevelOrder(NODE* root);
-void PrintAtLevel(NODE* root,int level);
 int height(NODE* root);
+void PrintAtLevel(NODE* root,int level);
 
 void main()
 {
