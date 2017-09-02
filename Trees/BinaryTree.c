@@ -89,3 +89,10 @@ NODE* GetNewNode(int data)
     newNode -> left = newNode -> right = NULL;
     return newNode;
 }
+void display(NODE* root)
+{
+    if(root == NULL)
+    {
+
+    }
+}
