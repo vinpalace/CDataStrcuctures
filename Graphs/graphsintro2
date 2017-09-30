@@ -1,0 +1,10 @@
+Adjacency Matrix
+
+make index from vertex list. and it is unweigted.
+
+*for undirected graph adjancency matrix is symmetric.
+
+for finding adjanceny nodes we need to first grab the index from the vertex list and then scan that particular row in the matrix.
+Whereever we find 1 we keep those values and get back the vertices from the indexlist.
+
+time complexity is good but memory ussage is very high.

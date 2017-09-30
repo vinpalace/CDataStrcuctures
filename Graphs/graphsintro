@@ -1,0 +1,37 @@
+//walk - a sequence of verticles where each adjacent pair is connected by an edge
+
+
+//path - a walk in which no vertices ( and thus no edges ) are repeated
+
+
+//trail - a walk in which no edges are repeated but vertices are.
+
+strongly connected - if there is a path from any vertex to any other vertex. If not its just called connected graph.
+
+closed walk - if starts and ends at same vertex then it is called closed vertex.
+
+length = number of vertex in that path including the starting node.
+
+simple cycle - no repetition other than start and end.
+
+
+Acyclic graph: A graph with no cycle. Example - Tree.
+
+
+
+GRAPH representation EDGE LIST
+
+
+struct edge
+{
+char *startVertex;
+char *endVertex;
+};
+
+having edge list containing start vertex ,end vertex and weight consumes alot of memory therefore we can instead use the Vertex list
+by  pointing the startvertex of the edge list to the vertex list.
+
+Or even better is to use the index of vertex list , and therfore we can now directly use Integers fields in edge list , that is even much bettter !.
+
+
+we must keep the time complexity in order of vertices rather than edges
