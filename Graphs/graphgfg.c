@@ -97,9 +97,10 @@ void printGraph(struct Graph* graph)
 int main()
 {
     //create the graph
-    int V = 5;
+    int V = 8;
     struct Graph* graph = createGraph(V);
 
+    /*
     addEdge(graph, 0, 1);
     addEdge(graph, 0, 4);
     addEdge(graph, 1, 2);
@@ -107,6 +108,21 @@ int main()
     addEdge(graph, 1, 4);
     addEdge(graph, 2, 3);
     addEdge(graph, 3, 4);
+    */
+
+
+
+    addEdge(graph, 0,1);
+    addEdge(graph, 0, 3);
+    addEdge(graph, 0, 6);
+
+    addEdge(graph, 1, 5);
+    addEdge(graph, 1, 4);
+    addEdge(graph, 2, 5);
+    addEdge(graph, 2, 7);
+
+    addEdge(graph, 3, 5);
+    addEdge(graph, 4, 6);
 
     printGraph(graph);
     return 0;
